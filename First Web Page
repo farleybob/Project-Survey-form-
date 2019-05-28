@@ -1,0 +1,38 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<body>
+
+	<header>My first webpage</header>
+	
+	<nav>
+    <a id="tribute-link" target="_blank" href="https://en.wikipedia.org/wiki/Dietrich_Bonhoeffer">More details from wikipedia</a>
+    
+	</nav>
+	
+	<main id="main">
+		<article>
+			<h1 id="title">The life of Dietrich Bonhoeffer</h1>
+      
+      <figure class="Stupendous">
+      <div id="img-div">
+        <img id="image" src="https://cdn.plough.com/-/media/images/plough/article/people/famous/bonhoeffer/db.jpg?la=en&amp;mw=250&amp;d=20190519T193058Z" alt="A black and white image of Dietrich Bonhoeffer, ca. 1931"/><br>
+        <figcaption id="img-caption">"A black and white photo of the man himself."</figcaption>     
+        </div>
+        </figure>
+    <article>
+			<p id="tribute-info">Dietrich Bonhoeffer (German; 4 February 1906 – 9 April 1945) was a German pastor, theologian, anti-Nazi dissident, and key founding member of the Confessing Church. His writings on Christianity's role in the secular world have become widely influential, and his book The Cost of Discipleship has been described as a modern classic.[1]
+
+Apart from his theological writings, Bonhoeffer was known for his staunch resistance to Nazi dictatorship, including vocal opposition to Hitler's euthanasia program and genocidal persecution of the Jews.[2] He was arrested in April 1943 by the Gestapo and imprisoned at Tegel prison for one and a half years. Later, he was transferred to a Nazi concentration camp.
+
+After being accused of being associated with the July 20 plot to assassinate Adolf Hitler, he was quickly tried, along with other accused plotters, including former members of the Abwehr (the German Military Intelligence Office), and then executed by hanging on 9 April 1945 as the Nazi regime was collapsing.</p>
+		</article>
+	
+		<aside>
+			<p>“There is meaning in every journey that is unknown to the traveler.” - Dietrich Bonhoffer</p>
+		</aside>
+	</main>
+	
+	<footer>Don't forget to tip your waitresses!</footer>
+
+</body>
+
+
