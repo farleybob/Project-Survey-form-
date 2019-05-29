@@ -35,4 +35,33 @@ After being accused of being associated with the July 20 plot to assassinate Ado
 
 </body>
 
+CSS!!
+
+body{
+ text-align: center; 
+}
+Header {
+  text-align: center;
+  margin: 50px;
+}
+body {
+  background-color: #BBDEFB;
+}
+section {
+   text-align: center;
+}
+.Pictures-list {
+  float: right;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+p {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
 
