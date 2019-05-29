@@ -1,0 +1,134 @@
+<body>
+  <h1 id="title">Title</h1>
+  <div id="form-structure">
+    <p id="description">This is a brief introduction</p>
+    <form id="survey-form"> 
+      
+      <div class="tabRow">
+        <div class="labels">
+          <label id="name-label" for="name">[Name]:</label>
+        </div>
+        <div class="tabRight">
+          <input type="text" class="field-input" id="name" placeholder="Input name here" required>
+        </div>
+      </div>
+      
+      <div class="tabRow">
+        <div class="labels">
+          <label id="email-label" for="name">[Email]:</label>
+        </div>
+        <div class="tabRight">
+          <input type="email" class="field-input" id="email" placeholder="Input email here" required>
+        </div>
+      </div>
+      
+      <div class="tabRow">
+        <div class="labels">
+          <label id="number-label" for="name">[Number]:</label>
+        </div>
+        <div class="tabRight">
+          <input type="number" class="field-input" id="number" placeholder="Input Number here" min="0" max="9000" required>
+        </div>
+      </div>
+      
+      <div class="tabRow">
+        <div class="labels">
+          <label id="label-name">Which category do you fit into?</label>
+        </div>
+        <div class="tabRight">
+           <select type="dropdown" class="dropdown" id="dropdown">
+             <option value="top">Top</option>
+             <option value="bottom">Bottom</option>
+             <option value="left">Left</option>
+             <option value="Right">Right</option>
+          </select>
+        </div>
+      </div>
+      
+      <div class="tabRow">
+        <div class="labels">
+          <label id="label-name" for="name">The current state of this survey:</label>
+        </div>
+        <div class="tabRight">
+              <label>
+                Awesome! 
+                <input name="radio-buttons" type="radio" value="1" class="user-opinion">
+              </label>
+              <label>
+                Mediocre. 
+                <input name="radio-buttons" type="radio" value="2" class="user-opinion">
+              </label>
+              <label>
+                Lame... 
+                <input name="radio-buttons" type="radio" value="3" class="user-opinion">
+              </label>
+        </div>
+      </div>
+      
+       <div class="tabRow">
+        <div class="labels">
+          <label id="label-name">Check it out!</label>
+        </div>
+        <div class="tabRight">
+          <label>
+            Check
+              <input name="checkbox" type=checkbox value="1" class="user-feedback"
+          </label>
+            <label>
+            this
+              <input name="checkbox" type=checkbox value="2" class="user-feedback"
+            </label>
+              <label>
+            box
+          <input name="checkbox" type=checkbox value="3" class="user-feedback"
+                 </label>
+         </div>
+      </div>
+      
+      <div class="tabRow">
+        <div class="labels">
+          <label for="comments">Do you feel lucky? Well do you punk?</label>
+        </div>
+        <div class="tabRight">
+          <textarea id="commments" class="input-field" style="height" placeholder="snappy retort, go!"></textarea> 
+        </div>
+      </div>
+      <button id="submit" type="submit">Submit!</button>
+    </form>
+  </div>
+</body>
+
+CSS!!!
+
+body {
+  text-align: center;
+  background: #FF8A80
+}
+#form-structure {
+    background-color: rgb(200, 250, 200);
+    margin: 0 auto;
+    border-radius: 4px;
+    width: 75%;
+    max-width: 900px;
+    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.labels {
+      display: inline-block;
+    text-align: left;
+    width: 40%;
+    padding: 5px;
+    vertical-align: top;
+    margin-top: 10px;
+}
+.field-input {
+    display: inline-block;
+    text-align: left;
+    height: 20px;
+    width: 280px;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid #c0c0c0;
+    border-radius: 2px;
+}
