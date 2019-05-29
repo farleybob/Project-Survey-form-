@@ -1,0 +1,109 @@
+HTML!!!!
+
+
+<body>
+  <header id="header">
+    <div class="logo">
+      <img id="header-img" src="https://cdn.rawgit.com/Sir-Cumference/6d8130dce911769a1113d83ca3bd9a27/raw/395d9e624f8e3fae2dc533a8f7001526f01f2049/physics.svg" alt="Typical picture of logo">
+      </div>
+        <nav id="nav-bar">
+          <ul>
+            <a class="nav-link" href="#Stevie">Stevie</a>
+            <a class="nav-link" href="#Wonder">Wonder</a>
+            <a class="nav-link" href="#Rules">Rules</a>
+          </ul>
+        </nav>   
+    </header>
+  <div class="container">
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+    <section id="turbulent">Let's see what this baby can do!<br>
+      <input id="email" type="email" placeholder="Email Address" required>
+      <input id="submit" type="submit" value="Activate!">
+    </section>
+    </form>
+  </div>
+  <div class="container">
+    <section id="Stevie">
+      <div class="desc">
+        <h2>Stevie the Wonder</h2><br>
+        <p>Stevie. Proper noun. A diminutive of the male given names Stephen and Steven. A diminutive of the female given name Stephanie. He began a film, a search, to discover not only what had happened to Stevie over the past ten years but to understand the forces that had shaped his entire life. Part way through the filming, Stevie is arrested and charged with a serious crime that tears his family apart. What was to be a modest profile turns into a intimate four and half year chronicle of Stevie, his broken family, the criminal justice system and the filmmaker himself, as they all struggle with what Stevie has done and who he has become. Written by Anonymous</p>
+      </div>
+    </section>
+    <section id="Wonder">
+      <div class="desc">
+        <h2>Wonder whats cooking</h2><br>
+        <p>Based on the New York Times bestseller, WONDER tells the incredibly inspiring and heartwarming story of August Pullman, a boy with facial differences who enters fifth grade, attending a mainstream elementary school for the first time. August (Auggie) Pullman was born with a severe facial difference that, up until now, has prevented him from going to a mainstream school.
+Starting 5th grade at Beecher Prep, Auggie wants nothing more than to be treated as an ordinary kid—but his new classmates can’t get past his extraordinary face. Wonder begins from Auggie's point of view, but soon switches to include the perspectives of his classmates, his sister, her boyfriend, and others. These voices converge to portray a community as it struggles with differences, and challenges readers, both young and old, to wonder about the true nature of empathy, compassion, acceptance, friendship, and—ultimately—kindness. Auggie is a hero for the ages, one who proves that you can’t blend in when you were born to stand out.
+
+Wonder has been a New York Times bestseller for over 5 years in a row (with over 140 weeks as #1). It's received numerous national and international awards, including being one of Time magazines 100 Best Young Adult Books of All Time (January, 2015), and USA Today's Top 100 bestsellers. The movie Wonder is scheduled to be released on November 17th, 2017.  </p>
+      </div>
+    </section>
+    <section id="Rules">
+      <div class="desc">
+        <h2>12 Rules for Life</h2>
+        <p>Stand up straight with your shoulders straight 
+Most lobsters are complete bastards left to their own devices. Most humans are complete bastards left to their own devices. This proves there is a God who wants us to have Order. Order is Masculine and Chaos is Feminine. Therefore to move towards Order, we all need to man up. We are all on this Earth to suffer. So learn to suffer like a man. Not everyone can be as rich and successful as me, but try to be less of a failure than you already are.</p><br>
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/lHD3oCoPX34" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+  </div>
+</body>
+
+CSS!!!
+
+body {
+  text-align: center;
+}
+header {
+    position: fixed;
+    background: #FFEBEE;
+    top: 0;
+    min-height: 100px;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  width:100%;
+}
+#nav-bar {
+ 
+  margin: 0;
+  padding: 0;
+  box-size: border-box;
+}
+.logo > img {
+    width: 100%;
+    height: 100%;
+    max-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 20px;
+}
+li {
+  list-style: none;
+}
+#page-wrapper {
+  position: relative; 
+}
+.container {
+      padding: 0;
+      box-sizing: border-box;
+  margin: 50px;
+  
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.desc{
+  padding: 100px;
+}
+@media (min-width: 600px;) {
+  p {
+    font-size: 1.5;
+  }
+}
