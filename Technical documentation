@@ -1,0 +1,116 @@
+HTML!!!
+
+
+<body>
+  <main id="main-doc">
+    <nav id="navbar">
+      <ul>
+      <li><header>The Best Superheros</header></li>
+      <li><a class="nav-link" href=#Superman>Superman</a></li>
+      <li><a class="nav-link" href=#Batman>Batman</a></li>
+      <li><a class="nav-link" href=#Spiderman>Spiderman</a></li>
+      <li><a class="nav-link" href=#The_Flash>The Flash</a></li>
+      <li><a class="nav-link" href=#Iron_Man>Iron Man</a></li>
+      <li><a class="nav-link" href=#The_Hulk>The Hulk</a></li>
+      </ul>
+    </nav>
+    <section class="main-section" id="Superman">
+      <header>
+      Superman
+      </header>
+      <p>Superman is a fictional character, a superhero appearing in American comic books published by DC Comics. The character was created by writer Jerry Siegel and artist Joe Shuster, and first appeared in Action Comics #1, published on April 18, 1938. </p>
+      <p><img src="https://vignette.wikia.nocookie.net/marvel_dc/images/3/3a/Superman_Prime_Earth_0004.jpg/revision/latest/scale-to-width-down/150?cb=20150315014149"</p>
+      <p><code>function greetMe(yourName) { alert("Hello " + yourName); }
+        greetMe("World");</code></p>
+    </section>
+    <section class="main-section" id="Batman">
+      <header>
+      Batman
+      </header>
+      <p>Batman is a superhero appearing in American comic books published by DC Comics. The character was created by artist Bob Kane and writer Bill Finger, and first appeared in Detective Comics #27 in 1939.</p>
+      <p><img src="https://upload.wikimedia.org/wikipedia/en/8/87/Batman_DC_Comics.png"</p>
+      <p> <code>function greetMe(yourName) { alert("Hello " + yourName); }
+        greetMe("World");</code> <br> Batmans skills include:</p>
+      <ul class="text-list">
+        <li>Fighting</li>
+        <li>Stealth</li>
+        <li>Battarang throwing</li>
+      </ul>
+    </section>
+    <section class="main-section" id="Spiderman">
+      <header>
+      Spiderman
+      </header>
+      <p>The fictional character Spider-Man, a comic book superhero created by Stan Lee and Steve Ditko and featured in Marvel Comics publications, has currently appeared in ten live-action films since his inception, not including fan made shorts and guest appearances in other Marvel Cinematic Universe (MCU) films. Spider-Man is the alter-ego of Peter Parker, a talented young freelance photographer and aspiring scientist imbued with superhuman abilities after being bitten by a radioactive/genetically-altered spider.
+
+The first live-action film based on Spider-Man was the unauthorized short Spider-Man by Donald F. Glut in 1969. This was followed by Spider-Man, an American made-for-television film that premiered on the CBS network in 1977. It starred Nicholas Hammond and was intended as a backdoor pilot for what became a weekly episodic TV series.</p>
+      <p><img src="https://upload.wikimedia.org/wikipedia/en/thumb/e/ef/Spider-Man_actors.jpg/388px-Spider-Man_actors.jpg"</p>
+      <p><code>function greetMe(yourName) { alert("Hello " + yourName); }
+greetMe("World");<code></p>
+    </section>
+    <section class="main-section" id="The_Flash">
+      <header>
+      The Flash
+      </header>
+      <p>At 11, Barry Allen's life changed completely when his mother died in a freak accident and his innocent father was convicted of her murder. Orphaned Barry later becomes Detective Joe West. Now a crime-scene investigator, his dedication to learn the truth about his mother's death drives him to follow up on every new scientific advancement and urban legend. When his latest obsession - a particle accelerator heralded as a world-changing invention - causes an explosion, it creates a freak storm and Barry is struck by lightning. He awakes from a coma nine months later with the power of superspeed. When he learns that others who have gained powers use them for evil, he dedicates himself to protecting the innocent, while still trying to solve the older mystery.</p>
+      <p><img src="https://upload.wikimedia.org/wikipedia/en/thumb/9/98/The_Flash_Intertitle.png/250px-The_Flash_Intertitle.png"></p>
+      <p><code>function greetMe(yourName) { alert("Hello " + yourName); }
+greetMe("World");<code><br>The Flashes powers include:</p>
+      <ul class="text-list">
+        <li>Super speed</li>
+        <li>Extremely intelligent</li>
+        <li>Red tights</li>
+      </ul>
+    </section>
+    <section class="main-section" id="Iron_Man">
+      <header>
+      Iron Man
+      </header>
+      <p>A billionaire industrialist and genius inventor, Tony Stark (Robert Downey Jr.), is conducting weapons tests overseas, but terrorists kidnap him to force him to build a devastating weapon. Instead, he builds an armored suit and upends his captors. Returning to America, Stark refines the suit and uses it to combat crime and terrorism.</p>
+      <p><img src="https://upload.wikimedia.org/wikipedia/en/thumb/e/e0/Iron_Man_bleeding_edge.jpg/250px-Iron_Man_bleeding_edge.jpg"></p>
+      <p><code>function greetMe(yourName) { alert("Hello " + yourName); }
+greetMe("World");<code></p>
+    </section>
+    <section class="main-section" id="The_Hulk">
+      <header>
+      The Hulk
+      </header>
+      <p>The Hulk is a fictional superhero appearing in publications by the American publisher Marvel Comics. Created by writer Stan Lee and artist Jack Kirby, the character first appeared in the debut issue of The Incredible Hulk.</p>
+      <p><img src="https://upload.wikimedia.org/wikipedia/en/5/59/Hulk_%28comics_character%29.png"></p>     
+      <p><code>function greetMe(yourName) { alert("Hello " + yourName); }
+greetMe("World");<code></p>
+    </section>
+  </main>
+</body>
+
+CSS!!!
+
+body {
+    margin-left: 310px;
+     margin-right: 50px;
+    padding: 20px;
+  
+}
+header {
+  text: bold;
+}
+nav {
+    text-align: center;
+    background: #C8E6C9;
+    position: fixed;
+    min-width: 290px;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 100%;
+}
+@media(min-max 600px) {
+  p {
+    font: none;
+  }
+}
+ul {
+  list-style: none;
+}
+
+  
